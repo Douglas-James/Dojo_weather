@@ -1,0 +1,109 @@
+/* Rest Css 
+* /
+/* 
+color 
+main-bar color: #34c9eb;
+main-bar font-color: #edf6f7
+
+*/
+
+
+* 
+{
+padding: 0px;
+margin: 0px;
+box-sizing: none;
+list-style: none;
+}
+.nav, .title, .select, .weather-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.weather-container
+{
+  width: 40%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav
+{
+  height: 90px;
+  background-color: #9fc5f8;
+  font-size: large;
+  color: #fff;
+}
+.nav-bar li
+{
+  display: inline-block;
+  margin: 0px 30px;
+}
+.select 
+{
+  border-bottom: 3px solid #999;
+  margin: 20px 20%;
+}
+.temper > p{
+  display: inline-block;
+}
+.col
+{
+  display: inline-block;
+  text-align: center;
+  margin: 0px 10px;
+  background-color: #cccc;
+}
+.col > h2, p
+{
+  margin: 10px;
+}
+.col img
+{
+  height: 200px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 60px;
+}
+.red{
+  color: #ff0000;
+}
+.blue{
+  color: blue;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+.cook
+{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: start;
+  background-color: #eee;
+}
+
+.cook > p, img
+{
+  padding: 5px;
+  display: inline-block;
+}
+.img-cook{
+  display: inline-block;
+}
+.spn-m
+{
+  display: block;
+  font-size: x-large;
+}
+.btn
+{
+  width: 80px;
+  padding:5px;
+  background-color: #82a1ca;
+}

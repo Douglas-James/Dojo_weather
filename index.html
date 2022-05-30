@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoJo </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Nav - bar-->
+    <div class="nav">
+      <div class="title">
+        <h1>DojoWeather</h1>
+      </div>
+      <div class="nav-bar">
+        <ul onclick="city()">
+          <li>Burban</li>
+          <li>Chicago</li>
+          <li>Dallas</li>
+        </ul>
+      </div>
+    </div>
+    <!--select weather place-->
+    <div class="select">
+      <div class="title">
+        <h1>San Jose</h1>
+      </div>
+        <div class="temper">
+            <p>Show Temperature in</p>
+            <select onclick="weather()">
+              <option value="C">&#176 C</option>
+              <option value="F">&#176 F</option>
+            </select>
+        </div>
+    </div>
+<div class="container">
+    <!--Weather-container-->
+    <div class="weather-container">
+      <div class="day-1 col">
+        <h2>Today</h2>
+        <img src="./assets/some_rain.png" alt="some_rain">
+        <p><span>some rain</span></p>
+        <h2><span class="red">75&#176</span><span class="blue">65&#176</span></h2>
+      </div>
+      <div class="day-2 col">
+        <h2>Tommorrow</h2>
+        <img src="./assets/some_sun.png" alt="some_sun">
+        <p><span>some sun</span></p>
+        <h2><span class="red">75&#176</span><span class="blue">65&#176</span></h2>
+      </div>
+      <div class="day-3 col">
+        <h2>Friday</h2>
+        <img src="./assets/some_clouds.png" alt="some_clouds">
+        <p><span>some clouds</span></p>
+        <h2><span class="red">75&#176</span><span class="blue">65&#176</span></h2>
+      </div>
+      <div class="day-4 col">
+        <h2>Saturday</h2>
+        <img src="./assets/some_sun.png" alt="some_sun">
+        <p><span>some sun</span></p>
+        <h2><span class="red">75&#176</span><span class="blue">65&#176</span></h2>
+      </div>
+    <!--Cook-->
+    </div>
+    <div class="cook">
+        <div class="img-cook">
+        <img src="./assets/cookie.png" alt="cook">
+        </div>
+        <p><span class="spn-m">Stop! cooke Time</span>We use cookies (saadly not the edible ones) to personalize<br>content
+          and ads, to provide social media features and to<br>
+          analyse our traffic.<a href="#">Read More</a>
+        </p>
+        <button class="btn" onclick="accept()">I Accept</button>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
